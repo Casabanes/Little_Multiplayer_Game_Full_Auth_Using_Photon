@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: c799a166-4c88-4b19-a69e-abaee937ab5b
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 1
+    UseNameServer: 1
+    FixedRegion: 
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: 
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - ShareImage
+  - ConvertTextToImage
+  - AddPlayer
+  - Move
+  - RPC_DisconnectOwner
+  - RPC_PlayerDisconnect
+  - RPC_SetClientParams
+  - RPC_SetColor
+  - SetServer
+  - Shielding
+  - Shoot
+  - StartGame
+  - CreateCamera
+  - Model
+  - ImAmThePlayer
+  - SetCamera
+  - Cam
+  - RPC_AnimShoot
+  - RPC_LifeChange
+  - RPC_AnimMove
+  - AssigntTeam
+  - RPC_ChangeColor
+  - RPC_Shielding
+  - RPC_Die
+  - RPC_ShowFinalUI
+  - RPC_DisconnectMainMenu
+  - DisconnectToMainMenu
+  - RPC_ToMainMenu
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 1
